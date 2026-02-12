@@ -49,33 +49,33 @@ if (
 
 class script(object):
    
-    START_TXT = """<b>👋 Hello {},</b>
-<b>🤖 I am <a href=https://t.me/{}>{}</a></b>
-<i>Your Professional Restricted Content Saver Bot.</i>
-<blockquote><b>🚀 System Status: 🟢 Online</b>
-<b>⚡ Performance: 10x High-Speed Processing</b>
-<b>🔐 Security: End-to-End Encrypted</b>
-<b>📊 Uptime: 99.9% Guaranteed</b></blockquote>
-<b>👇 Select an Option Below to Get Started:</b>
+    START_TXT = """<b>👋 ʜɪ {},</b>
+<b>ɪ ᴀᴍ sᴀᴠᴇ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ʙᴏᴛ, I ᴄᴀɴ sᴇɴᴅ ʏᴏᴜ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ʙʏ ɪᴛs ᴘᴏsᴛ ʟɪɴᴋ.
+
+ᴄʟɪᴄᴋ ᴏɴ sᴇᴛᴛɪɴɢs ʙᴜᴛᴛᴏɴ ᴀɴᴅ ᴄᴜsᴛᴏᴍɪᴢᴇ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs.
+
+ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ /help.</b>
 """
-    HELP_TXT = """<b>📚 Comprehensive Help & User Guide</b>
-<blockquote><b>1️⃣ Public Channels (No Login Required)</b></blockquote>
-• Forward or send the post link directly.
-• Compatible with any public channel or group.
-• <i>Example Link:</i> <code>https://t.me/channel/123</code>
-<blockquote><b>2️⃣ Private/Restricted Channels (Login Required)</b></blockquote>
-• Use <code>/login</code> to securely connect your Telegram account.
-• Send the private link (e.g., <code>t.me/c/123...</code>).
-• Bot accesses content using your authenticated session.
-<blockquote><b>3️⃣ Batch Downloading Mode</b></blockquote>
-• Initiate with <code>/batch</code> for multiple files.
-• Follow interactive prompts for seamless processing.
-<blockquote><b>🛑 Free User Limitations:</b></blockquote>
-• <b>Daily Quota:</b> 10 Files / 24 Hours
-• <b>File Size Cap:</b> 2GB Maximum
-<blockquote><b>💎 Premium Membership Benefits:</b></blockquote>
-• Unlimited Downloads & No Restrictions.
-• Priority Support & Advanced Features.
+    HELP_TXT = """<b>🖍️ HELP MENU
+
+🔻 ғᴏʀ ᴘᴜʙʟɪᴄ ᴀɴᴅ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛs :-
+ 
+► Jᴜsᴛ Sᴇɴᴅ Pᴏsᴛ Lɪɴᴋs
+
+🔻 ғᴏʀ ʙᴏᴛ ᴄʜᴀᴛs :-
+►
+</b>
+<blockquote><b>1️⃣https://t.me/b/botusername/4321</b></blockquote>
+<b>- ғᴏʀ ʙᴏᴛ ᴍᴇssᴀɢᴇ ɪᴅ ᴜsᴇ ᴘʟᴜs ᴍᴇssᴀɴɢᴇʀ ᴀᴘᴘ
+
+🔻 ғᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴘᴏsᴛ ᴀᴛ ᴀ ᴛɪᴍᴇ :-
+
+► sᴇɴᴅ ᴘᴜʙʟɪᴄ/ᴘʀɪᴠᴀᴛᴇ ᴘᴏsᴛs ʟɪɴᴋ ᴀs ᴇxᴘʟᴀɪɴᴇᴅ ᴀʙᴏᴠᴇ ᴡɪᴛʜ ғᴏʀᴍᴀᴛᴇ "ғʀᴏᴍ - ᴛᴏ" ᴛᴏ sᴇɴᴅ ᴍᴜʟᴛɪᴘʟᴇ ᴍᴇssᴀɢᴇs ʟɪᴋᴇ ʙᴇʟᴏᴡ</b>
+<blockquote><b>https://t.me/xxxx/1001-1010
+
+https://t.me/c/xxxx/101 - 120</b></blockquote>
+<b>ɴᴏᴛᴇ ᴛʜᴀᴛ sᴘᴀᴄᴇ ɪɴ ʙᴇᴛᴡᴇᴇɴ ᴅᴏᴇsɴ'ᴛ ᴍᴀᴛᴛᴇʀ</b>
+
 """
     ABOUT_TXT = """<b>ℹ️ About This Bot</b>
 <blockquote><b>╭────[ 🧩 Technical Stack ]────⍟</b>
